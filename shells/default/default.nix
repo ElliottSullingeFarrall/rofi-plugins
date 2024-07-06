@@ -19,7 +19,7 @@ mkShell {
     pango
   ];
 
-  RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
+  # RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
   RUSTFLAGS = "--cfg rofi_next";
   EDITOR = "code -w";
 }

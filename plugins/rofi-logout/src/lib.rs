@@ -12,7 +12,7 @@ struct Mode<'rofi> {
 }
 
 impl<'rofi> rofi_mode::Mode<'rofi> for Mode<'rofi> {
-    const NAME: &'static str = "rofi-logout\0";
+    const NAME: &'static str = "logout\0";
 
     fn init(mut api: rofi_mode::Api<'rofi>) -> Result<Self, ()> {
         api.set_display_name("Logout");

@@ -20,10 +20,10 @@ rustPlatform.buildRustPackage {
     glib
     pango
   ];
-
   nativeBuildInputs = with pkgs; [
     pkg-config
   ];
+  RUSTFLAGS = "--cfg rofi_next";
 
   postInstall = ''
     mkdir -p $out/lib/rofi

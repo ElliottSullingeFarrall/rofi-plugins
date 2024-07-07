@@ -3,7 +3,7 @@
 , ...
 }:
 
-lib.pre-commit-hooks.${system}.run rec {
+lib.pre-commit-hooks.${system}.run {
   src = ../..;
 
   hooks = {
@@ -19,6 +19,8 @@ lib.pre-commit-hooks.${system}.run rec {
     nil.enable = true;
     nixpkgs-fmt.enable = true;
     deadnix.enable = true;
+
+    rustfmt.enable = true;
 
     taplo.enable = true;
   };

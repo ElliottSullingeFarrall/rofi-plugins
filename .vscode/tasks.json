@@ -5,15 +5,21 @@
         "showReuseMessage": false,
         "clear": true
     },
+    "options": {
+        "shell": {
+            "executable": "/usr/bin/env",
+            "args": ["zsh"]
+        }
+    },
     "tasks": [
         {
-            "label": "rofi-logout",
-            "type": "process",
-            "command": "./plugins/rofi-logout/run.sh",
+            "label": "Run",
+            "type": "shell",
+            "command": "./run.sh",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
-                "isDefault": false
+                "isDefault": true
             }
         }
     ]

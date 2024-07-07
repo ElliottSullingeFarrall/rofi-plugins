@@ -1,0 +1,10 @@
+[package]
+name = "rofi-power"
+version.workspace = true
+publish.workspace = true
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+rofi-mode.workspace = true

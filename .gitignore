@@ -1,5 +1,7 @@
 .direnv/
 result
-**/target/
+
+cargo/
+target/
 
 .pre-commit-config.yaml

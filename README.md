@@ -1,9 +1,9 @@
 
 This repository contains several plugins for [rofi](https://github.com/davatorium/rofi) made in rust using [rofi-mode.rs](https://github.com/SabrinaJewson/rofi-mode.rs).
 
-### rofi-logout
+### rofi-power
 
-Provides a **Logout** mode that gives options for logging off, rebooting, shutting down, etc.
+Provides a **power** mode that gives options for logging off, rebooting, shutting down, etc.
 
 # Installation
 

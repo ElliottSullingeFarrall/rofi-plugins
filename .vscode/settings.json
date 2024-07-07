@@ -1,5 +1,0 @@
-{
-    "rust-analyzer.linkedProjects": [
-        "plugins/rofi-logout/Cargo.toml"
-    ]
-}

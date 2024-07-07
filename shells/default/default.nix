@@ -19,7 +19,12 @@ mkShell {
     pango
   ];
 
-  # RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
+  packages = with pkgs; [
+    rofi-wayland
+  ];
+
+  CARGO_HOME = "cargo";
+  RUST_SRC_PATH = "${pkgs.rust.packages.stable.rustPlatform.rustLibSrc}";
   RUSTFLAGS = "--cfg rofi_next";
   EDITOR = "code -w";
 }

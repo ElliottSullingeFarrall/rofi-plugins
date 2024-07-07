@@ -1,0 +1,9 @@
+[workspace]
+members = ["plugins/*"]
+
+[workspace.package]
+version = "0.3.0"
+publish = false
+
+[workspace.dependencies]
+rofi-mode = "0.4.0"

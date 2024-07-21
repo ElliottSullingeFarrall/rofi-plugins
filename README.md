@@ -1,3 +1,4 @@
+# Rofi-Plugins
 
 This repository contains several plugins for [rofi](https://github.com/davatorium/rofi) made in rust using [rofi-mode.rs](https://github.com/SabrinaJewson/rofi-mode.rs).
 
